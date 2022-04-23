@@ -60,6 +60,8 @@ void app_main()
     ILDAFile *ilda = new ILDAFile();
     ilda->read(files[i]);
     ilda_files.push_back(ilda);
+    // feed the watchdog so we don't get a timeout
+    vTaskDelay(100 / portTICK_PERIOD_MS);
   }
   esp_vfs_spiffs_unregister(NULL);
 

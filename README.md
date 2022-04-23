@@ -1,3 +1,4 @@
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z8Z734F5Y)
 # ESP32 Laser Show
 
 This is a very basic laser show driver for the ESP32.
